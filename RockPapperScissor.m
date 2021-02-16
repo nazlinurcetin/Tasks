@@ -20,7 +20,7 @@ end
 
 if (player1choice == player2choice)
     fprintf('The game is draw!');
-elseif ( player1choice == '1' && player2choice == '2')
+elseif ( player1choice == '1' && player2choice == '3')
     fprintf(' --------||       WINNER     ||-------- \n');
     fprintf([name1 ,' is the winner!! \n']);
 elseif (player1choice == '2' && player2choice == '1')
